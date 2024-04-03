@@ -1,0 +1,78 @@
+.product-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 634px;
+  height: 298px;
+}
+
+.product_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.product-name p {
+  color: rgb(126, 135, 148);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product-name h1 {
+  color: rgb(15, 17, 19);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.product-icons {
+  max-width: 42px;
+  max-height: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.product-icons button {
+  border: 1px solid rgb(242, 245, 249);
+  border-radius: 1111px;
+  background: rgb(253, 253, 253);
+}
+
+.phone-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.product-img {
+  max-width: 210px;
+  max-height: 210px;
+}
+
+.phone-characters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.phone-characters p {
+  color: rgb(126, 135, 148);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.lines hr {
+  width: 88px;
+  height: 4px;
+  border: none;
+  background: rgb(169, 170, 171);
+}
+
+.selected {
+  background-color: #ff4d4d;
+}
