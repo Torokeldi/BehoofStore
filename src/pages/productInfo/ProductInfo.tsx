@@ -2,7 +2,7 @@ import Header from "../../components/Header/Header.jsx";
 import phone from "../../assets/phone.svg";
 import star from "../../assets/Star.svg";
 import crown from "../../assets/crown.svg";
-import "../css/ProductInfo.css";
+import "./ProductInfo.css";
 
 function ProductInfo() {
   return (

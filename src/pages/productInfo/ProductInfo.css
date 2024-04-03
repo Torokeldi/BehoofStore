@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.product-info-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.route {
+  margin-top: 24px;
+}
+
+.route a {
+  color: rgb(15, 17, 19);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.route a:visited {
+  color: rgb(161, 171, 185);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.phone-character_content {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.phone-img {
+  max-width: 710px;
+  max-height: 710px;
+}
+
+.phone-character_info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phone-character_head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phone-character_head-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.phone-character-title {
+  color: rgb(15, 17, 19);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rating{
+  color: #00ff00;
+}
+
+.phone-characters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.phone-characters p {
+  color: rgb(126, 135, 148);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.lines hr {
+  width: 88px;
+  height: 4px;
+  border: none;
+  background: rgb(169, 170, 171);
+}
+
+.selected {
+  background-color: #ff4d4d;
+}
+
+.crown {
+  color: rgb(38, 49, 65);
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.amount{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post {
+  color: #00ff00;
+}

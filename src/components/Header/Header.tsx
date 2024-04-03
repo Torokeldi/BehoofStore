@@ -4,7 +4,7 @@ import Vector from "../../assets/Vector.svg";
 import Analyze from "../../assets/chart.svg";
 import Like from "../../assets/heart.svg";
 import User from "../../assets/user.svg";
-import "../css/header.css";
+import "./header.css";
 
 const Header: React.FC = () => {
   return (

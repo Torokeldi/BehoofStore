@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.categories__s {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+
+.accessory img {
+  max-width: 164px;
+  max-height: 164px;
+}
+
+.cards-content {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.card-item {
+  padding: 20px;
+}

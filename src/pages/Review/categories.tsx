@@ -1,6 +1,4 @@
-import React from "react";
-import Header from "../../components/Header/Header";
-import ProductCard from "../../components/ProductCard/ProductCard";
+import "./Review.css";
 import phone from "../../assets/phone.svg";
 import laptop from "../../assets/laptop.svg";
 import ipad from "../../assets/iPad.png";
@@ -10,19 +8,16 @@ import earphone from "../../assets/earphone.png";
 import portable from "../../assets/portable.png";
 import iphone from "../../assets/iphone.png";
 
-import "./Home.css";
-
-const Home: React.FC = () => {
+const Categories: React.FC = () => {
   return (
-    <div>
-      <Header />
-      <div className="home-container">
-        <div className="home-content">
-          <section>
+    <>
+      <section>
+        <div className="categories">
+          <div className="container">
             <div className="categories">
               <div className="container">
                 <div className="categories-content">
-                  <h1>Лучшие выборы</h1>
+                  <h1>Категории обзоров</h1>
                   <div className="categories__s">
                     <div className="accessory">
                       <img src={phone} alt="" />
@@ -63,25 +58,11 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-          </section>
-          <div className="cards-content">
-            <div className="card-item">
-              <ProductCard />
-            </div>
-            <div className="card-item">
-              <ProductCard />
-            </div>
-            <div className="card-item">
-              <ProductCard />
-            </div>
-            <div className="card-item">
-              <ProductCard />
-            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 
-export default Home;
+export default Categories;
