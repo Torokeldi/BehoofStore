@@ -1,0 +1,82 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-content {
+  margin-top: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+
+.logo-title {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.find-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sort-filter-btn {
+  padding: 16px 20px;
+  font-size: 20px;
+  background: #ff4d4d;
+  color: #f0f8ff;
+  border: none;
+
+  border-radius: 8px 0px 0px 8px;
+}
+
+.vector {
+  max-height: 5px;
+  margin-left: 13px;
+}
+
+.findInput {
+  width: 641px;
+  height: 52px;
+  padding: 14px 20px 14px 20px;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid rgb(209, 209, 210);
+  background: rgb(242, 245, 249);
+  color: rgb(161, 171, 185);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header_btns {
+    display: flex;
+  flex-direction: row;
+  gap: 20px;  
+}
+
+.header_btns button {
+  width: 52px;
+  height: 52px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(242, 245, 249);
+}
+
+.header_btns-img {
+  width: 21.5px;
+  height: 19.3px;
+}

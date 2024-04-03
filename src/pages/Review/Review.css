@@ -1,0 +1,46 @@
+.reviews-title{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.categories-content{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row__content{
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px 100px 10px 10px;
+    background: none;
+    border: none;
+    background: rgb(237, 237, 238);
+}
+
+.categories{
+    margin: 40px 0 0 0;
+}
+
+.categories__images{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.row_content_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.row_card_btn{
+    border: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row_card img{
+    border-radius: 10px;
+}
