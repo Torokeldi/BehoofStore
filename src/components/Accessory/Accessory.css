@@ -1,0 +1,68 @@
+.product-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 232px;
+  height: 156px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-type {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(126, 135, 148);
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.product-name {
+  color: rgb(38, 49, 65);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price-txt {
+  color: rgb(126, 135, 148);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.product-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-discount {
+  color: rgb(48, 209, 112);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.icon-wrapper {
+  margin-left: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+}
