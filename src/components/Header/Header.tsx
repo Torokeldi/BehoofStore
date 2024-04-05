@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           <div className="logo-content">
             <img src={Logo} alt="" className="logo-img" />
             <h1 className="logo-title">Behoof</h1>
-            <p className="slogan">
+            <p className="slogan-header">
               Лучшие цены <br /> в интернет-магазинах
             </p>
           </div>

@@ -1,0 +1,43 @@
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 77, 77, 1);
+    text-decoration: none;
+  }
+
+  .characteristics-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .phone-info {
+    width: 710px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: 1px solid rgba(242, 245, 249, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .data-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .data-label {
+    color: rgb(126, 135, 148);
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+.data-value {
+    color: rgb(38, 49, 65);
+    font-size: 16px;
+    font-weight: 600;
+  }

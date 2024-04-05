@@ -15,6 +15,7 @@ import behoof from "../../assets/behoof.png";
 import "./Home.css";
 import Accessory from "../../components/Accessory/Accessory";
 import Row from "../Review/row";
+import Footer from "../../components/Footer/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -219,10 +220,10 @@ const Home: React.FC = () => {
               <Accessory />
             </div>
           </div>
-          <Row/>
-          <Footer/>
         </div>
-      </div>
+      </div>{" "}
+      <Row />
+      <Footer />
     </div>
   );
 };

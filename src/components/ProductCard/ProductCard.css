@@ -38,14 +38,18 @@
 }
 
 .phone-info {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .product-img {
   max-width: 210px;
   max-height: 210px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
 }
 
 .phone-characters {
@@ -63,7 +67,7 @@
 .lines {
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 5px;
 }
 
 .lines hr {

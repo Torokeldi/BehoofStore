@@ -1,9 +1,9 @@
 import './Review.css'
+import img from '../../assets/Frame 2371.jpeg';
 
 const Row:React.FC =() => {
   return (
     <div>
-        <section>
             <div className="container">
                 <div className="row">
                     <div className="row__content">
@@ -13,9 +13,8 @@ const Row:React.FC =() => {
                             </h2>
                         </div>
                         <div className="row_content_info">
-
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame1.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -34,7 +33,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame2.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -53,7 +52,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame 3.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -72,7 +71,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame4.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -91,7 +90,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame4.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -110,7 +109,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame 3.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -129,7 +128,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame1.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -148,7 +147,7 @@ const Row:React.FC =() => {
                             </div>
 
                             <div className="row_card">
-                                <img src="src/pages/Review/image/Frame2.png" alt="" />
+                                <img src={img} alt="" />
                                 <div className="row_card_info">
                                     <div className="row_card_title">
                                         <h2>
@@ -169,7 +168,6 @@ const Row:React.FC =() => {
                     </div>
                 </div>
             </div>
-        </section>
     </div>
   )
 }

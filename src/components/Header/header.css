@@ -13,11 +13,14 @@
 .header-content {
   margin-top: 34px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo-content {
+  align-items: center;
   display: flex;
   flex-direction: row;
   gap: 11px;
@@ -28,20 +31,28 @@
   font-size: 34px;
 }
 
+.slogan-header {
+  white-space: nowrap;
+}
+
 .find-content {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .sort-filter-btn {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   padding: 16px 20px;
   font-size: 20px;
   background: #ff4d4d;
   color: #f0f8ff;
   border: none;
-
   border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .vector {
@@ -62,9 +73,10 @@
 }
 
 .header_btns {
-    display: flex;
+  align-items: center;
+  display: flex;
   flex-direction: row;
-  gap: 20px;  
+  gap: 20px;
 }
 
 .header_btns button {

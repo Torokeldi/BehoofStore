@@ -23,7 +23,9 @@ function ProductCard() {
           </div>
         </div>
         <div className="phone-info">
-          <img src={phoneInfo} alt="" className="product-img" />
+          <div className="product-img">
+            <img src={phoneInfo} alt="" />
+          </div>
           <div className="phone-characters">
             <div>
               <p className="product-title">Дизайн</p>
