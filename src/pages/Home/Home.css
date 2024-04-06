@@ -1,0 +1,38 @@
+.hemo__content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    gap: 30px;
+
+}
+
+.hemo__category{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 215, 203);
+    border-radius: 10px;
+}
+
+.home__info{
+    padding: 30px 50px;
+}
+.home-texts{
+    display: flex;
+    gap: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.home-text{
+    flex-direction: column;
+}
+
+.mln{
+    color: rgb(218, 27, 27);
+}
+
+.mln2{
+    font-family: 'Poppins', sans-serif;
+    font-size:35px;
+    margin: 0;
+}

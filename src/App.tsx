@@ -1,14 +1,19 @@
-import Footer from "./components/Header/Footer/footer"
-import Review from "./pages/Review/Review"
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Review from "./pages/Review/Review";
+import Home from "./pages/Home/Home";
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/Review",
+    element: <Review/>,
+  },
+ 
+]);
 
-  return (
-    <>
-     <Review/>
-     <Footer/>
-    </>
-  )
-}
 
-export default App
+
+export default () => <RouterProvider router={router}/>

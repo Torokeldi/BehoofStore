@@ -1,3 +1,5 @@
+import Footer from '../../components/Footer/footer'
+import Header from '../../components/Header/Header'
 import './Review.css'
 import Categories from './categories'
 import Row from './row'
@@ -5,6 +7,7 @@ import Row from './row'
 function Review() {
   return (
     <>
+    <Header/>
         <section>
             <div className="container">
                 <div className="reviews">
@@ -21,6 +24,7 @@ function Review() {
         </section>
         <Categories/>
         <Row/>
+        <Footer/>
     </>
   )
 }

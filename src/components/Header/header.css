@@ -1,19 +1,9 @@
-* {
-  margin: auto;
-  padding: auto;
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
 .header-content {
   margin-top: 34px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
+  align-items: center;
+  gap: 5px;
   flex-direction: row;
 }
 

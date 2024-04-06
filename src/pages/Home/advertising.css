@@ -1,0 +1,14 @@
+.advertising__content{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+.advertising__block h1{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.advertising__block h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
