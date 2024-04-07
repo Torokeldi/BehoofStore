@@ -1,8 +1,8 @@
 import './Review.css'
-import Categories from './categories.tsx'
-import Row from './row'
+import Categories from '../../components/Categories/categories.tsx'
+import Row from '../../components/row/row.tsx'
 
-function Review() {
+const Review:React.FC =()=> {
   return (
     <>
         <section>

@@ -37,7 +37,7 @@
   background: rgb(253, 253, 253);
 }
 
-.phone-info {
+.accessory-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

@@ -4,7 +4,7 @@ import Analyze from "../../assets/chart.svg";
 import phoneInfo from "../../assets/phone.svg";
 import "../ProductCard/ProductCard.css";
 
-function ProductCard() {
+const ProductCard: React.FC = () => {
   return (
     <div>
       <div className="product-content">
@@ -22,7 +22,7 @@ function ProductCard() {
             </button>
           </div>
         </div>
-        <div className="phone-info">
+        <div className="accessory-info">
           <div className="product-img">
             <img src={phoneInfo} alt="" />
           </div>
@@ -74,6 +74,6 @@ function ProductCard() {
       </div>
     </div>
   );
-}
+};
 
 export default ProductCard;

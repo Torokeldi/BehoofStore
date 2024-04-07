@@ -29,9 +29,10 @@ input{
 }
 
 .row_content_info{
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns:auto auto auto auto;
+    gap: 10px;
 }
 
 .row_card_btn{
@@ -42,4 +43,6 @@ input{
 
 .row_card img{
     border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
 }

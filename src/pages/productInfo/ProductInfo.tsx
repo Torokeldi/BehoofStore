@@ -6,11 +6,12 @@ import "./ProductInfo.css";
 import analyze from "../../assets/chart.svg";
 import like from "../../assets/heart.svg";
 import chart from "../../assets/Frame8.png";
-import Row from "../Review/row.js";
+import Row from "../../components/row/row.js";
 import Comments from "../../components/Comments/Comments.tsx";
 import Footer from "../../components/Footer/Footer.js";
 import Charts from "./Charts/Charts.tsx";
 import Details from "./Details/Details.tsx";
+import { Link } from "react-router-dom";
 
 const ProductInfo: React.FC = () => {
   return (
@@ -19,11 +20,11 @@ const ProductInfo: React.FC = () => {
       <div className="container">
         <div className="product-info-content">
           <div className="route">
-            <a href="#">Главная</a>
+            <Link to="../Home/Home.tsx">Главная</Link>
             {"/"}
-            <a href="#">Смартфоны</a>
+            <Link to="../ProductGroup/ProductsGroup.tsx">Смартфоны</Link>
             {"/"}
-            <a href="#">Apple iPhone 13 Pro Max 256 ГБ серый</a>
+            <span>Apple iPhone 13 Pro Max 256 ГБ серый</span>
           </div>
           <div className="phone-character_content">
             <img src={phone} alt="" className="phone-img" />
@@ -198,7 +199,7 @@ const ProductInfo: React.FC = () => {
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
                 <div className="link-container">
-                 <Details/>
+                  <Details />
                 </div>
                 <div className="description-div">
                   <h1>Описание</h1>
@@ -222,8 +223,8 @@ const ProductInfo: React.FC = () => {
                   </p>
                 </div>
               </div>
-              <Charts />
-            </div>
+              
+            </div><Charts />
           </div>
           <div className="row">
             <Row />

@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductInfo from "./pages/productInfo/ProductInfo";
-import Compare from "./components/Compare/Compare";
 import Review from "./pages/Review/Review";
 import ProductsGroup from "./pages/ProductGroup/ProductsGroup";
 import Home from "./pages/Home/Home";
+import Compare from "./pages/Compare/Compare";
 
 const App: React.FC = () => {
   return (

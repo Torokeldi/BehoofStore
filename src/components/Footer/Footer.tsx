@@ -2,9 +2,7 @@ import "./Footer.css";
 
 const Footer: React.FC = () => {
   return (
-    <div>
       <footer>
-        <div className="container">
           <div className="footer__content__colums">
             <div className="footer__logo">
               <img src="src/pages/Review/image/footer.png" alt="" />
@@ -16,7 +14,6 @@ const Footer: React.FC = () => {
                 <img src="src/pages/Review/image/TG.png" alt="" />
                 <img src="src/pages/Review/image/YT.png" alt="" />
               </div>
-            </div>
 
             <div className="footer__colums">
               <div className="footer-block">
@@ -77,7 +74,6 @@ const Footer: React.FC = () => {
         </div>
         <h5>Copyright © 2023 Behoof, Inc. Все права защищены</h5>
       </footer>
-    </div>
   );
 };
 

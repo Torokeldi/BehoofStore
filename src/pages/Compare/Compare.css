@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.compare-content {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.compare-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.compare-head-title {
+  color: rgb(38, 49, 65);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.compare-head-btn {
+  color: rgb(161, 171, 185);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background: transparent;
+}
+
+.compare-head-btn img {
+  margin-right: 10px;
+}
+
+.head-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.head-btns button {
+  color: rgb(126, 135, 148);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+}
+
+.head-btns button:hover {
+  color: #ff4d4d;
+}
+
+.phone-jpg {
+  max-width: 232px;
+  max-height: 156px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-container {
+  max-width: 359.25px;
+  max-height: 346px;
+  padding: 10px;
+}
+
+.product-details {
+  position: relative;
+}
+
+.trash-btn {
+  position: absolute;
+  top: -157px;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+}
+
+.like-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+}
+
+.product-details div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.type-product {
+  color: rgb(126, 135, 148);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.title-product {
+  color: rgb(38, 49, 65);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price-txt {
+  color: rgb(126, 135, 148);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.compare-price {
+  color: rgb(38, 49, 65);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.swiper-title {
+  color: rgb(15, 17, 19);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.stars-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.star-rating {
+  width: 20.82px;
+  height: 19.04px;
+}
+
+.flex-title {
+  color: rgb(38, 49, 65);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  margin-top: 20px;
+}
