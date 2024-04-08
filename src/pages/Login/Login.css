@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.login-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsNav {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 700px;
+}
+
+.buttonsNav button {
+  background-color: #ff4d4d;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffeeee;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.buttonsNav button:hover {
+  background-color: #ffeeee;
+  color: #ff4d4d;
+}
+
+.auth-register {
+  max-width: 700px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 40px;
+}
+
+.auth-register h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-block input[type="text"],
+.form-block input[type="tel"],
+.form-block input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #ccc;
+  outline: none;
+  border-radius: 10px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.form-block input[type="text"]:focus,
+.form-block input[type="tel"]:focus,
+.form-block input[type="password"]:focus {
+  border-color: #ff4d4d;
+}
+
+.auth-register button[type="submit"] {
+  border-radius: 10px;
+  background-color: #ff4d4d;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffeeee;
+  border: none;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.auth-register button[type="submit"]:hover {
+  background-color: #ffeeee;
+  color: #ff4d4d;
+}
+
+.auth-register label {
+  color: #555;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.auth-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.auth-bottom a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.auth-bottom a:hover {
+  color: #ff4d4d;
+  text-decoration: underline;
+}

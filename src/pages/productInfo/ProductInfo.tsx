@@ -9,8 +9,8 @@ import chart from "../../assets/Frame8.png";
 import Row from "../../components/row/row.js";
 import Comments from "../../components/Comments/Comments.tsx";
 import Footer from "../../components/Footer/Footer.js";
-import Charts from "./Charts/Charts.tsx";
-import Details from "./Details/Details.tsx";
+import Charts from "../../components/Charts/Charts.tsx";
+import Details from "../../components/Details/Details.tsx";
 import { Link } from "react-router-dom";
 
 const ProductInfo: React.FC = () => {

@@ -14,7 +14,7 @@ const ProductCard: React.FC = () => {
             <h1>Apple iPhone 13 Pro Max 256 ГБ серый</h1>
           </div>
           <div className="product-icons">
-            <button>
+            <button style={{margin: '22px'}}>
               <img src={Like} alt="" />
             </button>
             <button>

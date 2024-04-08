@@ -11,7 +11,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import '../ProductInfo.css';
+import '../ProductCard/ProductCard.css';
 
 const Charts: React.FC = () => {
   const data = [

@@ -5,6 +5,7 @@ import Analyze from "../../assets/chart.svg";
 import Like from "../../assets/heart.svg";
 import User from "../../assets/user.svg";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -37,7 +38,9 @@ const Header: React.FC = () => {
             <img src={Analyze} className="header_btns-img" alt="" />
           </button>
           <button type="button">
-            <img src={User} className="header_btns-img" alt="" />
+            <Link to="/login">
+              <img src={User} className="header_btns-img" alt="" />
+            </Link>
           </button>
         </div>
       </div>

@@ -2,6 +2,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 634px;
   height: 298px;
+  margin-bottom: 20px;
 }
 
 .product_header {
@@ -24,17 +25,17 @@
 }
 
 .product-icons {
-  max-width: 42px;
-  max-height: 42px;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  align-items: center;
 }
 
 .product-icons button {
   border: 1px solid rgb(242, 245, 249);
-  border-radius: 1111px;
-  background: rgb(253, 253, 253);
+  border-radius: 10px;
+  background: rgb(239, 235, 235);
+  max-width: 42px;
+  max-height: 42px;
 }
 
 .accessory-info {
