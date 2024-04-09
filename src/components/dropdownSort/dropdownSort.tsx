@@ -1,7 +1,7 @@
 import "./dropdown.css";
 import triangle from "../../assets/triangle.svg";
 
-const Dropdown: React.FC = () => {
+const DropdownSort: React.FC = () => {
   return (
     <div className="container">
       <div className="dropdown-block">
@@ -29,4 +29,4 @@ const Dropdown: React.FC = () => {
   );
 };
 
-export default Dropdown;
+export default DropdownSort;
