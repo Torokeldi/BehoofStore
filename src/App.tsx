@@ -2,24 +2,24 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 import Review from "./pages/Review/Review";
-import ProductsGroup from "./pages/ProductGroup/ProductsGroup";
 import Home from "./pages/Home/Home";
 import Compare from "./pages/Compare/Compare";
 import Login from "./pages/Login/Login";
+import Dropdown from "./components/Dropdown/Dropdown";
+import ProductApp from "./pages/ProductApp/ProduckApp";
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product-group" element={<ProductsGroup />} />
+          <Route path="/product-app" element={<ProductApp />} />
           <Route path="/product-info" element={<ProductInfo />} />
           <Route path="/review" element={<Review />} />
           <Route path="/login" element={<Login />} />
           <Route path="/compare" element={<Compare />} />
+          <Route path="/dropdown" element={<Dropdown />} />
         </Routes>
-      </div>
     </Router>
   );
 };

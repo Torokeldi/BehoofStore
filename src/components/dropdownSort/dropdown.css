@@ -1,0 +1,42 @@
+.dropdown-list ul{
+    list-style: none;
+}
+
+.dropdown-list ul img{
+    width: 30px;
+    height: 30px;
+}
+.dropdown-list ul li {
+    position: relative;
+}
+.dropdown-list ul li a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown-list ul li .dropdown-list ul.dropdown li{
+    display: block;
+}
+
+.dropdown-list ul li .dropdown-list ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.dropdown-list ul li a:hover{
+    border:solid 1px #a8a1a1;
+
+}
+.dropdown-list ul li:hover .dropdown-list ul.dropdown{
+    display: block;
+}
+
+.dropdown-list {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

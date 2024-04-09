@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../assets/behoof_logo.svg";
 import Vector from "../../assets/Vector.svg";
 import Analyze from "../../assets/chart.svg";
 import Like from "../../assets/heart.svg";
 import User from "../../assets/user.svg";
 import "./header.css";
-import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const [Dropdown, setDropdown] = useState(false);
+  const nav = useNavigate();
+
+  function ClickBtn() {
+    setDropdown(!Dropdown);
+    if (Dropdown) {
+      nav("/");
+    } else {
+      nav("/dropdown");
+    }
+  }
+
   return (
     <div className="header">
       <div className="header-content">
@@ -19,7 +31,7 @@ const Header: React.FC = () => {
           </p>
         </div>
         <div className="find-content">
-          <button type="button" className="sort-filter-btn">
+          <button type="button" onClick={ClickBtn} className="sort-filter-btn">
             Каталог товаров <img src={Vector} alt="" className="vector" />
           </button>
           <input

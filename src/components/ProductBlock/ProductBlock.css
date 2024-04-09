@@ -1,0 +1,117 @@
+.b {
+  display: flex;
+}
+
+.block-img {
+  margin: 20px 0 0 0;
+  max-width: 240px;
+  max-height: 240px;
+}
+.block-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.block-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-info {
+  display: flex;
+  flex-direction: column;
+}
+.block-header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.blocks {
+  display: flex;
+}
+
+.grade {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.grade-text {
+  color: rgb(78, 152, 4);
+}
+
+.grade-text2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(141, 133, 133);
+}
+
+.block-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.block-name {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.information {
+  display: flex;
+  gap: 20px;
+}
+
+.information-data {
+  margin: 0;
+}
+
+.information-data h5 {
+  margin: 10px;
+}
+
+.information-data2 h5 {
+  margin: 10px;
+  font-family: "Inter";
+}
+
+
+.phone-characters {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .phone-characters p {
+    color: rgb(126, 135, 148);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .lines {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  .lines hr {
+    width: 88px;
+    height: 4px;
+    border: none;
+    background: rgb(169, 170, 171);
+  }
+  
+  .selected {
+    background-color: #ff4d4d;
+  }
+  
+  .bc-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
