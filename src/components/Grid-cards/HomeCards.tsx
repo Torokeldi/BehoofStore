@@ -19,7 +19,7 @@ const HomeCards:React.FC =() => {
           <ProductCard />
         </div>
       </div>
-      <h6 className="slogan">
+      <h6 className="slogan-txt">
         Наша цель - создать фантастический <br /> сервис для всех потребителей
       </h6>
     </div>
