@@ -1,0 +1,106 @@
+.smartphone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smartphone-btn{
+    padding: 10px 20px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 5px;
+    border:none;
+}
+
+.smartphone-titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smartphone-titles h2{
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+}
+
+
+.smartphone-titles button{
+    border: none;
+    background: none;
+    color: red;
+}
+
+.btn{
+    margin: 0 10px 0 0;
+    padding: 10px 10px ;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.characteristic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+.smartphone{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.smartphone-btn{
+    display: none;
+}
+
+.additional{
+    display: flex;
+    /* justify-content: space-between;
+    gap: 60px; */
+}
+
+.smartphone-btn{
+    padding: 10px 20px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 5px;
+    border:none;
+}
+
+.smartphone-titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smartphone-titles h2{
+    font-size: 25px;
+    color: rgb(14, 15, 14);
+}
+
+
+.smartphone-titles button{
+    border: none;
+    background: none;
+    color: red;
+}
+.characteristic{
+    display: none;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+}
+
+p input{
+    border: solid 1px red;
+}
+
+.information-data h5{
+    display: flex;
+}
+
+.information-data2 h5{
+    display: flex;
+}
