@@ -1,0 +1,157 @@
+.Container__Search {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.Smartphones img {
+  max-width: 189px;
+  max-height: 128px;
+}
+.Smartphones-item {
+  width: 290.5px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  order: 0;
+  border: 1px solid rgb(242, 245, 249);
+  border-radius: 10px;
+  background: rgb(246, 247, 250);
+  margin-top: 20px;
+}
+.Smartphones-itemTwo {
+  width: 290.5px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  order: 0;
+  border: 1px solid rgb(242, 245, 249);
+  border-radius: 12px;
+  background: rgb(246, 247, 250);
+  margin-top: 20px;
+}
+.phone-type {
+  color: rgb(126, 135, 148);
+}
+.phone-name {
+  color: black;
+  font-weight: 600;
+}
+.price img {
+  width: 10px;
+  height: 10px;
+}
+.price {
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+.iPhone-price {
+  color: rgb(126, 135, 148);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+}
+.percent {
+  color: rgb(48, 209, 112);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main-block {
+  display: flex;
+  align-items: center;
+}
+.interest-iPhone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.iPhones-estimate {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.like {
+  margin-right: 20px;
+}
+.main-heroSearchs {
+  margin-top: 10px;
+}
+.iPod-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.iPod-text button {
+  margin-left: 50px;
+  margin-top: 20px;
+  border: none;
+  background: transparent;
+  margin-bottom: 15px;
+}
+.Smartphones {
+  display: flex;
+  gap: 140px;
+}
+.review-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.aside-review img {
+  max-width: 120px;
+  max-height: 120px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.aside-review {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.review-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.review-info a {
+  text-decoration: none;
+  color: rgb(255, 77, 77);
+}
+.review-info p {
+  color: rgb(126, 135, 148);
+}
+.section-review {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+.find-gadgets li {
+  margin-bottom: 25px;
+}
+.find-gadgets {
+  margin-top: 21px;
+}
+.find-gadgets h2 {
+margin-bottom: 10px;
+}
+.find-gadgets a {
+  color: rgb(255, 77, 77);
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  .Container__Search{
+    width: 40%;
+  }
+}

@@ -7,6 +7,7 @@ import Compare from "./pages/Compare/Compare";
 import Login from "./pages/Login/Login";
 import Dropdown from "./components/Dropdown/Dropdown";
 import ProductApp from "./pages/ProductApp/ProduckApp";
+import Search from "./components/search/Search";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/dropdown" element={<Dropdown />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
     </Router>
   );

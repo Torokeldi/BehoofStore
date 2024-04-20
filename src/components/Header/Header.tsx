@@ -9,13 +9,19 @@ import "./header.css";
 
 const Header: React.FC = () => {
   const [Dropdown, setDropdown] = useState(false);
+  const [search, setSearch] = useState(false);
   const nav = useNavigate();
+
+  function inputChange(){
+    setSearch(!search);
+    if (!search) {
+      nav("/search");
+    }
+  }
 
   function ClickBtn() {
     setDropdown(!Dropdown);
-    if (Dropdown) {
-      nav("/");
-    } else {
+    if (!Dropdown) {
       nav("/dropdown");
     }
   }
@@ -40,6 +46,7 @@ const Header: React.FC = () => {
             id=""
             className="findInput"
             placeholder="Поиск товаров"
+            onChange={inputChange}
           />
         </div>
         <div className="header_btns">

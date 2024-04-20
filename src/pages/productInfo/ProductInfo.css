@@ -39,9 +39,26 @@
   gap: 40px;
 }
 
+.phone-img-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .phone-img {
   max-width: 710px;
   max-height: 710px;
+}
+
+.Iphones {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.iPhone-pics {
+  max-width: 222px;
+  max-height: 222px;
 }
 
 .phone-character_info {
@@ -294,7 +311,6 @@
   line-height: 20px;
   color: rgba(38, 49, 65, 1);
 }
-
 
 .icon {
   padding: 7px;

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import "./Login.css";
+import Header from "../../components/Header/Header";
 
 interface Props {}
 
 const Login: React.FC<Props> = () => {
-
-
   const [currentSection, setCurrentSection] = useState<
     "registration" | "authorization"
   >("registration");
@@ -14,13 +13,10 @@ const Login: React.FC<Props> = () => {
     setCurrentSection(section);
   };
 
-
   return (
     <div className="login-container">
+      <Header />
       <div className="login-content">
-
-
-
         <div className="buttonsNav">
           <button onClick={() => handleSectionChange("registration")}>
             Регистрация
@@ -30,9 +26,6 @@ const Login: React.FC<Props> = () => {
           </button>
         </div>
         <div className="auth-register">
-
-
-
           {currentSection === "registration" && (
             <form action="#" className="registration-form">
               <h1>Регистрация</h1>
@@ -58,8 +51,6 @@ const Login: React.FC<Props> = () => {
             </form>
           )}
 
-
-
           {currentSection === "authorization" && (
             <form action="#" className="authorization-form">
               <h1>Авторизация</h1>
@@ -81,8 +72,6 @@ const Login: React.FC<Props> = () => {
               </div>
             </form>
           )}
-
-
         </div>
       </div>
     </div>
